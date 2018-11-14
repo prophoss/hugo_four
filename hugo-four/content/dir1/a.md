@@ -11,7 +11,3 @@ This is my **learning** _file_
 I use _fine_  single asterik or underscore on each side to italisize a word  
 <!---seems like html still works here as well. God to know. --->
 I'll add a link [here](https://www.google.com/) to google just for fun!  
-- [] first  
-- second  
-1 third  
-1 fourth  
