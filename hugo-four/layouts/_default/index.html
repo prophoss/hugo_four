@@ -1,28 +1,25 @@
 {{ define "main"}}
-<h1 style="text-align:center">Home page</h1>
-{{ range .Pages}}
-<ul>
-    <li><a href="{{.URL}}" >{{.Title}}</a></li>
-</ul>
-{{end}}
+    <html>
+    <head>
+        <title>Page Title</title>
+        <style>
+        body{
+            background-image: url("/images/creek.jpg");
+            background-size: 100%;
+            background-repeat: repeat-x;
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Page Title</title>
-    
-</head>
-<body>
-    <style> 
-                body{
-                    background-image: url("/images/creek.jpg");
-                    background-repeat: repeat-y;
-                    background-size: 100%;
-                }
-                
+        }
         </style>
-    
-</body>
-</html>
+        
+    </head>
+    <body>
+            {{range .Pages}}
+            <ul>
+                <li><a href="{{.URL}}">{{.Title}}</a></li>
+            </ul>
+        
+        {{end}}
+        
+    </body>
+    </html>
 {{end}}
