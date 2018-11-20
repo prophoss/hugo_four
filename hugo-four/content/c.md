@@ -5,4 +5,5 @@ draft: true
 tag: "tags"
 ---
 
-C file
+C file  
+![image](images/creek.jpg)
