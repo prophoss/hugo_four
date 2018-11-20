@@ -6,4 +6,4 @@ tag: "tags"
 ---
 
 C file  
-![image](images/creek.jpg)
+![image](static/images/creek.jpg)
