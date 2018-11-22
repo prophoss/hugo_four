@@ -1,12 +1,12 @@
+
 {{define "main"}}
+<link rel="stylesheet" href="{{"css/single.css" | relURL}}">
 <h1>{{.Title}}</h1>
-<body style="background-color: aquamarine;"></body>
-<style>
-a:visited{
-    color:blue;
-}
-</style>
-<a href="/">Home</a>
-{{ .Content }}
+<body>
+    {{ .Content }}
+    <a href="/">Home</a>
+</body>
+
+
 
 {{end}}

@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+    
+}
+h1 {
+    color: antiquewhite;
+}
+img[src*="thumbnail"]{
+    width: 100px;
+    height: 80px;
+}
